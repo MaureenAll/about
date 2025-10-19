@@ -1,0 +1,22 @@
+{
+  "name": "maureen-website",
+  "version": "1.0.0",
+  "description": "A personal website for showcasing projects and information.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process not defined'",
+    "test": "echo 'No tests defined'"
+  },
+  "keywords": [
+    "personal",
+    "website",
+    "portfolio"
+  ],
+  "author": "Maureen",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

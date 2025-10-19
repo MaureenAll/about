@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - Maureen's Website</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    {% include '../components/header.html' %}
+    {% include '../components/nav.html' %}
+    
+    <div class="container">
+        <section class="section">
+            <h2>Welcome to My Personal Website</h2>
+            <p>Hello! I'm Maureen, and this is my personal website where you can learn more about me, my experiences, and my skills.</p>
+        </section>
+
+        <section class="section">
+            <h2>Latest Projects</h2>
+            <ul>
+                <li>Project 1: Description of project 1.</li>
+                <li>Project 2: Description of project 2.</li>
+                <li>Project 3: Description of project 3.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to reach out through my social media or email!</p>
+        </section>
+    </div>
+
+    {% include '../components/footer.html' %}
+    <script src="../scripts/main.js"></script>
+</body>
+</html>
