@@ -12,6 +12,8 @@ pages:
     - cp *.jpg public/ || true
     - cp *.jpeg public/ || true
     - cp *.png public/ || true
+    - cp *.ico public/ || true
+    - cp site.webmanifest public/ || true
   artifacts:
     paths:
       - public

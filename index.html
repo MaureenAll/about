@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Maureen Allanic - Professional in AI & Emerging Technology Platforms at European Space Agency">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
     <title>Maureen Allanic - Resume</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -84,25 +88,34 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            position: left;
+            position: relative;
             overflow: hidden;
         }
 
+        /* Background image flipped horizontally */
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: url('profile-picture.jpeg');
+            background-size: cover;
+            background-position: center 20%;
+            background-repeat: no-repeat;
+            transform: scaleX(-1);
+            z-index: 0;
+        }
 
-        /* Dark gradient overlay */
+        /* Dark gradient overlay - Dark on Left to reveal face on Right */
         .hero-section::after {
             content: '';
             position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            background: linear-gradient(to left,
-                    rgba(10, 10, 10, 1) 30%,
-                    rgba(10, 10, 10, 0.9) 60%,
-                    rgba(10, 10, 10, 0.6) 80%,
-                    rgba(10, 10, 10, 0.2) 90%,
-                    rgba(10, 10, 10, 0) 100%);
+            inset: 0;
+            background: linear-gradient(90deg,
+                    rgb(0, 0, 0),
+                    rgba(10, 10, 10, 1),
+                    rgba(10, 10, 10, 1),
+                    rgba(10, 10, 10, 0.6)70%,
+                    rgba(10, 10, 10, 0.5));
             z-index: 1;
         }
 
@@ -305,19 +318,23 @@
 
     <!-- Hero Section - Full Screen -->
     <div class="hero-section px-6 fade-in">
-        <main class="max-w-4xl mx-auto">
-            <!-- Header -->
-            <header class="mb-12 md:mb-16">
-                <h1 id="name" class="text-5xl md:text-7xl font-light text-white mb-4 tracking-tight">Loading...</h1>
-                <p id="title" class="text-xl md:text-2xl text-neutral-400 font-light mb-3"></p>
-                <p id="location" class="text-sm text-neutral-500"></p>
-            </header>
+        <main class="max-w-7xl mx-auto w-full">
+            <div class="max-w-2xl relative z-10">
+                <!-- Header -->
+                <header class="mb-12 md:mb-16">
+                    <h1 id="name" class="text-5xl md:text-7xl font-light text-white mb-4 tracking-tight drop-shadow-lg">
+                        Loading...</h1>
+                    <p id="title" class="text-xl md:text-2xl text-neutral-300 font-light mb-3 drop-shadow-md"></p>
+                    <p id="location" class="text-sm text-neutral-400 drop-shadow-md"></p>
+                </header>
 
-            <!-- Summary -->
-            <section id="about" class="mb-12 scroll-mt-24">
-                <h2 class="text-xs uppercase tracking-widest text-neutral-500 mb-6 font-medium">About</h2>
-                <p id="summary" class="text-lg md:text-xl leading-relaxed text-neutral-300 font-light max-w-3xl"></p>
-            </section>
+                <!-- Summary -->
+                <section id="about" class="mb-12 scroll-mt-24">
+                    <h2 class="text-xs uppercase tracking-widest text-neutral-500 mb-6 font-medium">About</h2>
+                    <p id="summary"
+                        class="text-lg md:text-xl leading-relaxed text-neutral-200 font-light drop-shadow-md"></p>
+                </section>
+            </div>
 
             <!-- Scroll Down Button -->
             <div class="flex justify-center mt-16 md:mt-20">
@@ -444,7 +461,7 @@
         document.getElementById('current-year').textContent = new Date().getFullYear();
 
         // Load and render content
-        fetch('content.json')
+        fetch('content.json?v=' + new Date().getTime())
             .then(response => response.json())
             .then(data => {
                 // Header
