@@ -159,7 +159,57 @@
     ],
     "projects": [
         {
+            "name": "Smart Green Pallet - IBM",
+            "period": "Apr 2019 – Aug 2019",
+            "description": "Co-creation of a smart green pallet. Incorporating IoT sensors and RFID tags allows for real-time monitoring of the pallet's location, condition, and inventory levels. This ensures better supply chain management and tracking efficiency. PoC developed for CMA CGM.",
+            "technologies": [
+                "IoT",
+                "RFID",
+                "Supply Chain Management",
+                "Blockchain"
+            ],
+            "link": "http://youtube.com/watch?v=4cbmeHskl98&feature=share&ab_channel=IBMDigitalBusinessAutomation"
+        },
+        {
+            "name": "Nota Bene - Food Delivery Website",
+            "period": "Oct 2017 – Aug 2018",
+            "description": "Creation of a food delivery website, mobile-first with user experience design and implementation. Worked as a team leader of 4 persons (developer, integrator and web designers). Use of AGILE methods (scrum), Development done under Symfony framework. This project was realized as a final exam for my Bachelor in Web development & design graduation at EFFICOM Lille.",
+            "technologies": [
+                "Symfony",
+                "UX Design",
+                "Agile/Scrum",
+                "Mobile-First",
+                "Team Leadership"
+            ],
+            "link": ""
+        },
+        {
+            "name": "Lola by Sonora Labs: Strategy Project",
+            "period": "Nov 2017 – Dec 2017",
+            "description": "The project was done as a course work in IAE Aix-Marseille Graduate School of Management and the results were delivered to Sonora Labs. Strategic market analysis for a French start-up company providing a blockchain-based private cloud solution.",
+            "technologies": [
+                "Strategy",
+                "Market Analysis",
+                "Blockchain",
+                "Cloud Solutions"
+            ],
+            "link": ""
+        },
+        {
+            "name": "BGO Mobility - Rickshaws Mobility App",
+            "period": "Mar 2016 – Sep 2016",
+            "description": "Worked on Bgo Mobility project. An early stage start-up aiming to improve the urban mobility on how we travel in rickshaws in the cities of India. The project focus to create and deliver a whole new experience on how we commute from different parts of the city.",
+            "technologies": [
+                "Mobile App",
+                "Urban Mobility",
+                "Startup",
+                "India"
+            ],
+            "link": ""
+        },
+        {
             "name": "YPSat - Young Professionals Satellite",
+            "period": "Aug 2022 – Sep 2024",
             "description": "ESA's Young Professionals Satellite project, participating in the Ariane 6 maiden flight. Led communications coordination for a multidisciplinary, multicultural team.",
             "technologies": [
                 "Space Systems",
@@ -170,6 +220,7 @@
         },
         {
             "name": "AI/ML Platform at ESA",
+            "period": "Sep 2022 – Present",
             "description": "End-to-end AI/ML platform providing data management, model training, monitoring, and serving capabilities for the European Space Agency.",
             "technologies": [
                 "MLOps",
@@ -181,6 +232,7 @@
         },
         {
             "name": "OUispeak Solutions",
+            "period": "Oct 2017 – Sep 2020",
             "description": "International communication services platform serving luxury brands including Cartier, Longchamp, Rolex, and Galeries Lafayette.",
             "technologies": [
                 "SaaS",
