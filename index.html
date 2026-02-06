@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maureen Allanic - Professional in AI & Emerging Technology Platforms at European Space Agency">
+    <title>Maureen Allanic - Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'accent': '#3b82f6',
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #1a1a1a;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: #404040;
+            border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: #525252;
+        }
+
+        /* Smooth hover transitions */
+        a {
+            transition: all 0.2s ease;
+        }
+    </style>
+</head>
+<body class="bg-neutral-950 text-neutral-200 antialiased">
+    <div class="min-h-screen py-12 px-6 md:py-20">
+        <main class="max-w-4xl mx-auto">
+            <!-- Header -->
+            <header class="mb-16 md:mb-24">
+                <h1 id="name" class="text-4xl md:text-6xl font-light text-white mb-3 tracking-tight">Loading...</h1>
+                <p id="title" class="text-lg md:text-xl text-neutral-400 font-light mb-2"></p>
+                <p id="location" class="text-sm text-neutral-500"></p>
+            </header>
+
+            <!-- Summary -->
+            <section class="mb-16 md:mb-20">
+                <h2 class="text-xs uppercase tracking-widest text-neutral-500 mb-6 font-medium">About</h2>
+                <p id="summary" class="text-lg md:text-xl leading-relaxed text-neutral-300 font-light"></p>
+            </section>
+
+            <!-- Experience -->
+            <section class="mb-16 md:mb-20">
+                <h2 class="text-xs uppercase tracking-widest text-neutral-500 mb-8 font-medium">Experience</h2>
+                <div id="experience" class="space-y-10"></div>
+            </section>
+
+            <!-- Education -->
+            <section class="mb-16 md:mb-20">
+                <h2 class="text-xs uppercase tracking-widest text-neutral-500 mb-8 font-medium">Education</h2>
+                <div id="education" class="space-y-8"></div>
+            </section>
+
+            <!-- Skills -->
+            <section class="mb-16 md:mb-20">
+                <h2 class="text-xs uppercase tracking-widest text-neutral-500 mb-8 font-medium">Skills</h2>
+                <div id="skills" class="flex flex-wrap gap-2"></div>
+            </section>
+
+            <!-- Languages -->
+            <section class="mb-16 md:mb-20">
+                <h2 class="text-xs uppercase tracking-widest text-neutral-500 mb-8 font-medium">Languages</h2>
+                <div id="languages" class="space-y-2"></div>
+            </section>
+
+            <!-- Awards -->
+            <section class="mb-16 md:mb-20">
+                <h2 class="text-xs uppercase tracking-widest text-neutral-500 mb-8 font-medium">Awards & Recognition</h2>
+                <div id="awards" class="space-y-3"></div>
+            </section>
+
+            <!-- Publications -->
+            <section class="mb-16 md:mb-20">
+                <h2 class="text-xs uppercase tracking-widest text-neutral-500 mb-8 font-medium">Publications</h2>
+                <div id="publications" class="space-y-3"></div>
+            </section>
+
+            <!-- Contact -->
+            <section class="mb-12">
+                <h2 class="text-xs uppercase tracking-widest text-neutral-500 mb-6 font-medium">Contact</h2>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a id="email-link" href="" class="inline-flex items-center gap-2 text-neutral-300 hover:text-accent border border-neutral-800 hover:border-accent px-6 py-3 rounded-sm">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                        <span id="email-text">Email</span>
+                    </a>
+                    <a id="linkedin-link" href="" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-neutral-300 hover:text-accent border border-neutral-800 hover:border-accent px-6 py-3 rounded-sm">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="mt-20 pt-8 border-t border-neutral-900">
+                <p class="text-xs text-neutral-600 text-center">
+                    © <span id="current-year"></span> Maureen Allanic. All rights reserved.
+                </p>
+            </footer>
+        </main>
+    </div>
+
+    <script>
+        // Set current year
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Load and render content
+        fetch('content.json')
+            .then(response => response.json())
+            .then(data => {
+                // Header
+                document.getElementById('name').textContent = data.name;
+                document.getElementById('title').textContent = data.title;
+                document.getElementById('location').textContent = data.location;
+                document.title = `${data.name} - Resume`;
+
+                // Summary
+                document.getElementById('summary').textContent = data.summary;
+
+                // Experience
+                const experienceContainer = document.getElementById('experience');
+                data.experience.forEach(job => {
+                    const jobElement = document.createElement('div');
+                    jobElement.className = 'border-l-2 border-neutral-800 pl-6';
+                    jobElement.innerHTML = `
+                        <div class="mb-2">
+                            <h3 class="text-lg font-medium text-white">${job.role}</h3>
+                            <p class="text-neutral-400">${job.company}</p>
+                            <p class="text-sm text-neutral-500 mt-1">${job.period} • ${job.location}</p>
+                        </div>
+                        ${job.highlights ? `
+                            <ul class="mt-3 space-y-2 text-neutral-400 text-sm leading-relaxed">
+                                ${job.highlights.map(h => `<li class="flex gap-3"><span class="text-accent mt-1.5">•</span><span>${h}</span></li>`).join('')}
+                            </ul>
+                        ` : ''}
+                    `;
+                    experienceContainer.appendChild(jobElement);
+                });
+
+                // Education
+                const educationContainer = document.getElementById('education');
+                data.education.forEach(edu => {
+                    const eduElement = document.createElement('div');
+                    eduElement.className = 'border-l-2 border-neutral-800 pl-6';
+                    eduElement.innerHTML = `
+                        <h3 class="text-base font-medium text-white">${edu.degree}</h3>
+                        <p class="text-neutral-400 mt-1">${edu.institution}</p>
+                        <p class="text-sm text-neutral-500 mt-1">${edu.field} • ${edu.year}</p>
+                    `;
+                    educationContainer.appendChild(eduElement);
+                });
+
+                // Skills
+                const skillsContainer = document.getElementById('skills');
+                data.skills.forEach(skill => {
+                    const skillElement = document.createElement('span');
+                    skillElement.className = 'px-4 py-2 bg-neutral-900 text-neutral-300 text-sm border border-neutral-800 rounded-sm';
+                    skillElement.textContent = skill;
+                    skillsContainer.appendChild(skillElement);
+                });
+
+                // Languages
+                const languagesContainer = document.getElementById('languages');
+                data.languages.forEach(lang => {
+                    const langElement = document.createElement('div');
+                    langElement.className = 'flex justify-between items-center';
+                    langElement.innerHTML = `
+                        <span class="text-neutral-300">${lang.language}</span>
+                        <span class="text-sm text-neutral-500">${lang.level}</span>
+                    `;
+                    languagesContainer.appendChild(langElement);
+                });
+
+                // Awards
+                const awardsContainer = document.getElementById('awards');
+                data.awards.forEach(award => {
+                    const awardElement = document.createElement('div');
+                    awardElement.className = 'flex gap-3 text-neutral-400';
+                    awardElement.innerHTML = `
+                        <span class="text-accent mt-1.5">•</span>
+                        <span>${award}</span>
+                    `;
+                    awardsContainer.appendChild(awardElement);
+                });
+
+                // Publications
+                const publicationsContainer = document.getElementById('publications');
+                data.publications.forEach(pub => {
+                    const pubElement = document.createElement('div');
+                    pubElement.className = 'flex gap-3 text-neutral-400 italic';
+                    pubElement.innerHTML = `
+                        <span class="text-accent mt-1.5">•</span>
+                        <span>${pub}</span>
+                    `;
+                    publicationsContainer.appendChild(pubElement);
+                });
+
+                // Contact
+                document.getElementById('email-link').href = `mailto:${data.email}`;
+                document.getElementById('email-text').textContent = data.email;
+                document.getElementById('linkedin-link').href = data.linkedin;
+            })
+            .catch(error => {
+                console.error('Error loading content:', error);
+                document.getElementById('name').textContent = 'Error loading content';
+            });
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+    "name": "package.json",
+    "version": "1.0.0",
+    "description": "Minimalist resume portfolio website",
+    "scripts": {
+        "build:css": "tailwindcss -o styles.css --minify",
+        "build": "npm run build:css"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.4.1"
+    }
+}

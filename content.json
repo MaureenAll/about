@@ -1,0 +1,172 @@
+{
+    "name": "Maureen Allanic",
+    "title": "Professional in AI & Emerging Technology Platforms",
+    "location": "Paris, Île-de-France, France",
+    "email": "maureen.nal@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/maureen-allanic/",
+    "summary": "Product Owner for end-to-end AI/ML platforms at the European Space Agency, specializing in emerging technologies, MLOps, and GenAI. Passionate about driving innovation through AI training programs and collaborative governance frameworks.",
+    "experience": [
+        {
+            "company": "European Space Agency - ESA",
+            "role": "Professional in AI & Emerging Technology Platforms",
+            "period": "September 2022 - Present",
+            "location": "Noordwijk, Netherlands",
+            "highlights": [
+                "Serve as Product Owner for an end-to-end AI/ML platform, overseeing capabilities such as data management, preparation, interactive exploration, managed model training, model monitoring, batch inference, and serving",
+                "Engage with customers and stakeholders to elicit requirements, constraints, and expectations for the AI & Emerging Technology Platform",
+                "Collaborate with teams to define governance policies for AI/ML and emerging technology adoption, ensuring compliance and scalability",
+                "Integrated third-party APIs into internal systems, automating workflows and reducing manual processes by 20%",
+                "Design and deliver AI training programs for beginners across the agency"
+            ]
+        },
+        {
+            "company": "Young ESA Entrepreneurs",
+            "role": "Co-founder & Lead",
+            "period": "September 2021 - September 2023",
+            "location": "ESTEC",
+            "highlights": [
+                "Encouraging entrepreneurial spirit at ESA",
+                "Building a network of venture-minded ESA professionals",
+                "Establishing communication link between Young Professionals and ESA Business Incubation Centres"
+            ]
+        },
+        {
+            "company": "European Space Agency - ESA",
+            "role": "Process Review & Knowledge Management Officer",
+            "period": "September 2020 - September 2022",
+            "location": "Noordwijk, Netherlands",
+            "highlights": [
+                "Provided knowledge management support to space exploration projects (ISS Operations, Orion, I-HAB, ESPRIT, ExoMars, ERO MSR)",
+                "Implemented processes for personal data protection, security, and quality management",
+                "Designed and delivered training on process best practices and knowledge management tools"
+            ]
+        },
+        {
+            "company": "YPSAT Project",
+            "role": "Communications Coordinator",
+            "period": "August 2022 - September 2024",
+            "location": "ESTEC",
+            "highlights": [
+                "Coordinated communications for ESA's Young Professionals Satellite project",
+                "Contributed to Ariane 6 maiden flight launch payload proposal"
+            ]
+        },
+        {
+            "company": "Tata Consultancy Services",
+            "role": "IT Functional Analyst",
+            "period": "September 2019 - September 2020",
+            "location": "Brussels, Belgium",
+            "highlights": [
+                "Involved in planning, analysis, development, testing, implementation and rollout of customer projects",
+                "Development of customer-specific functionalities"
+            ]
+        },
+        {
+            "company": "OUispeak Solutions",
+            "role": "Co-founder & CMO",
+            "period": "October 2017 - September 2020",
+            "location": "Aix-En-Provence, France",
+            "highlights": [
+                "Provided international communication services to luxury brands (Cartier, Longchamp, Rolex, Galeries Lafayette)",
+                "Contributed to high-growth startup, supporting cross-functional teams"
+            ]
+        },
+        {
+            "company": "IBM",
+            "role": "IT Junior Consultant",
+            "period": "January 2019 - June 2019",
+            "location": "Marseille, France",
+            "highlights": [
+                "Monitored implementation of various client IT projects and regional initiatives",
+                "Identified business opportunities with IBM Track & Trace blockchain, IBM Cloud, IBM Watson"
+            ]
+        },
+        {
+            "company": "meet your data",
+            "role": "Data Analyst",
+            "period": "October 2016 - August 2017",
+            "location": "Lille, France",
+            "highlights": [
+                "Provided customized web analytics services to 10+ clients from various sectors",
+                "Managed dataLayers implementation, data collection, cleaning, and analysis",
+                "Conducted A/B testing and analyzed online marketing strategies"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Tilburg University",
+            "degree": "Master of Science in Information Management",
+            "field": "Technologies de l'information",
+            "year": "2018 - 2019"
+        },
+        {
+            "institution": "University of Turku",
+            "degree": "Master of Science in Economics and Business Administration",
+            "field": "Management Information Systems",
+            "year": "2018"
+        },
+        {
+            "institution": "Aix-Marseille Graduate School of Management - IAE",
+            "degree": "International Master in Management of Information Technology (IMMIT)",
+            "field": "Technologies de l'information",
+            "year": "2017"
+        },
+        {
+            "institution": "Sciences U Lille - EFFICOM / EFAB",
+            "degree": "Bachelor Web Design & Development",
+            "field": "Technologies de l'information",
+            "year": "2016 - 2017"
+        },
+        {
+            "institution": "中国海洋大学 (Ocean University of China)",
+            "degree": "International Chinese Business Program",
+            "field": "Business",
+            "year": "2015"
+        }
+    ],
+    "skills": [
+        "AI/ML Platform Development",
+        "Product Ownership",
+        "MLOps & GenAI",
+        "Knowledge Management",
+        "Process Improvement",
+        "Drone Piloting",
+        "Figma",
+        "Microsoft Power Apps",
+        "Data Analytics",
+        "API Integration",
+        "Blockchain Technology"
+    ],
+    "languages": [
+        {
+            "language": "French",
+            "level": "Native or Bilingual"
+        },
+        {
+            "language": "English",
+            "level": "Full Professional"
+        },
+        {
+            "language": "Mandarin",
+            "level": "Limited Working"
+        }
+    ],
+    "certifications": [
+        "Google Analytics Completion",
+        "Google Tag Management",
+        "Concurrent Design Hackathon"
+    ],
+    "awards": [
+        "1st Winner - IBM x Intrum Hackathon for financial wellbeing (2024)",
+        "1st Winner - MBSE 2024 Hackathon",
+        "1st Winner - Mistral AI Hackathon 2024",
+        "1st Winner - Competition Tremplin Sud Award at Le Phare de l'entrepreneuriat",
+        "1st Winner - Contest 'Imagine my life in the future of farming'"
+    ],
+    "publications": [
+        "Towards a tokenization of carbon credits: an application of blockchain technology to emission trading system",
+        "SROnto: An ontology describing the space resources domain",
+        "Tintin, c'est l'aventure"
+    ]
+}
