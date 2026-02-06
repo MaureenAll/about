@@ -4,7 +4,7 @@
     "location": "Paris, Île-de-France, France",
     "email": "maureen.nal@gmail.com",
     "linkedin": "https://www.linkedin.com/in/maureen-allanic/",
-    "summary": "Product Owner for end-to-end AI/ML platforms at the European Space Agency, specializing in emerging technologies, MLOps, and GenAI. Passionate about driving innovation through AI training programs and collaborative governance frameworks.",
+    "summary": "Rapid Prototyping Team Lead at the European Space Agency, empowering space experts through advanced AI capabilities. I combine the rigor of space engineering with the agility of a serial entrepreneur. From co-founding businesses to leading cross-functional tech teams, I focus on turning bold ideas into functional prototypes. Driven by curiosity and always seeking the next challenge.",
     "experience": [
         {
             "company": "European Space Agency - ESA",
@@ -159,6 +159,40 @@
     ],
     "projects": [
         {
+            "name": "AI/ML Platform at ESA",
+            "period": "Sep 2022 – Present",
+            "description": "End-to-end AI/ML platform providing data management, model training, monitoring, and serving capabilities for the European Space Agency.",
+            "technologies": [
+                "MLOps",
+                "Python",
+                "AI/ML",
+                "Cloud"
+            ],
+            "link": ""
+        },
+        {
+            "name": "YPSat - Young Professionals Satellite",
+            "period": "Aug 2022 – Sep 2024",
+            "description": "ESA's Young Professionals Satellite project, participating in the Ariane 6 maiden flight. Led communications coordination for a multidisciplinary, multicultural team.",
+            "technologies": [
+                "Space Systems",
+                "Project Management",
+                "Communications"
+            ],
+            "link": ""
+        },
+        {
+            "name": "OUispeak Solutions",
+            "period": "Oct 2017 – Sep 2020",
+            "description": "International communication services platform serving luxury brands including Cartier, Longchamp, Rolex, and Galeries Lafayette.",
+            "technologies": [
+                "SaaS",
+                "Communication",
+                "Business Development"
+            ],
+            "link": ""
+        },
+        {
             "name": "Smart Green Pallet - IBM",
             "period": "Apr 2019 – Aug 2019",
             "description": "Co-creation of a smart green pallet. Incorporating IoT sensors and RFID tags allows for real-time monitoring of the pallet's location, condition, and inventory levels. This ensures better supply chain management and tracking efficiency. PoC developed for CMA CGM.",
@@ -206,52 +240,93 @@
                 "India"
             ],
             "link": ""
-        },
-        {
-            "name": "YPSat - Young Professionals Satellite",
-            "period": "Aug 2022 – Sep 2024",
-            "description": "ESA's Young Professionals Satellite project, participating in the Ariane 6 maiden flight. Led communications coordination for a multidisciplinary, multicultural team.",
-            "technologies": [
-                "Space Systems",
-                "Project Management",
-                "Communications"
-            ],
-            "link": ""
-        },
-        {
-            "name": "AI/ML Platform at ESA",
-            "period": "Sep 2022 – Present",
-            "description": "End-to-end AI/ML platform providing data management, model training, monitoring, and serving capabilities for the European Space Agency.",
-            "technologies": [
-                "MLOps",
-                "Python",
-                "AI/ML",
-                "Cloud"
-            ],
-            "link": ""
-        },
-        {
-            "name": "OUispeak Solutions",
-            "period": "Oct 2017 – Sep 2020",
-            "description": "International communication services platform serving luxury brands including Cartier, Longchamp, Rolex, and Galeries Lafayette.",
-            "technologies": [
-                "SaaS",
-                "Communication",
-                "Business Development"
-            ],
-            "link": ""
         }
     ],
     "awards": [
-        "1st Winner - IBM x Intrum Hackathon for financial wellbeing (2024)",
-        "1st Winner - MBSE 2024 Hackathon",
-        "1st Winner - Mistral AI Hackathon 2024",
-        "1st Winner - Competition Tremplin Sud Award at Le Phare de l'entrepreneuriat",
-        "1st Winner - Contest 'Imagine my life in the future of farming'"
+        {
+            "title": "1st Winner - MBSE 2024 Hackathon",
+            "issuer": "ESA",
+            "date": "May 2024",
+            "associated": "European Space Agency - ESA",
+            "description": "Conceptual Design for a Greenhouse Module on the Moon using MBSE and SysML. Our team designed Vertigo, a lunar greenhouse module ensuring future moon inhabitants have fresh veggies.",
+            "links": [
+                "https://mbse2024.welcome-manager.de/front/content.php?id_article=554"
+            ]
+        },
+        {
+            "title": "1st Winner - Mistral AI Hackathon 2024",
+            "issuer": "Mistral AI",
+            "date": "May 2024",
+            "associated": "",
+            "description": "Our team won the Mistral AI Paris Hackathon 2024 (Mistral API track), the largest ever french hackathon. We've successfully built Le ChatOn Vision, a multi-modal RAG system that allows for natural video analysis in real-time, reducing workload and boosting efficiency. Inspired by Project Astra, it aims to provide a chat-like experience for analyzing video data captured by autonomous systems like drones or robots.",
+            "links": [
+                "https://devpost.com/software/le-chat-on-vision"
+            ]
+        },
+        {
+            "title": "1st Winner - Contest 'Imagine my life in the future of farming'",
+            "issuer": "Chambre d'Agriculture de Bretagne",
+            "date": "November 2021",
+            "associated": "",
+            "description": "A competition to invite Bretons to share their vision of the pig farming of tomorrow. Participants were invited to provide concrete proposals to improve welfare in pig farming. Won with a 3D modelisation of tomorrow's farm.",
+            "links": [
+                "https://www.echosciences-bretagne.bzh/articles/animagine-lancement-d-un-concours-d-expression-sur-l-elevage-porcin"
+            ]
+        },
+        {
+            "title": "1st Winner - Competition Tremplin Sud Award at Le Phare de l'entrepreneuriat",
+            "issuer": "Accede",
+            "date": "March 2019",
+            "associated": "OUispeak Solutions",
+            "description": "Challenge among 100+ promising start-ups from the south region of France.",
+            "links": [
+                "https://www.tourmag.com/Start-up-Ouispeak-recompensee-Tremplin-Sud-du-Phare-de-l-Entrepeneuriat-2019_a97842.html",
+                "https://www.youtube.com/watch?v=a8ItLFvzO3I"
+            ]
+        },
+        {
+            "title": "1st Winner - IBM x Intrum Hackathon for financial wellbeing",
+            "issuer": "Intrum",
+            "date": "April 2018",
+            "associated": "Turun yliopisto - University of Turku",
+            "description": "While I was a student studying Information Systems at the School of Economics in Turku, Finland, I participated in a hackathon jointly organized by Tieto, Intrum, IBM, and Nordic Finance Innovation. This European challenge featured 13 diverse teams competing to develop innovative solutions. Our project utilized IBM Watson to create a groundbreaking service for managing personal finances, aimed at enhancing customer experience through effective use of data and public APIs.",
+            "links": [
+                "https://www.youtube.com/watch?v=94L8_azx7yg"
+            ]
+        }
     ],
     "publications": [
-        "Towards a tokenization of carbon credits: an application of blockchain technology to emission trading system",
-        "SROnto: An ontology describing the space resources domain",
-        "Tintin, c'est l'aventure"
+        {
+            "type": "Article",
+            "title": "Hear from an ESA Junior Professional: Maureen",
+            "publisher": "European Space Agency",
+            "date": "May 22, 2025",
+            "description": "The European Space Agency's Junior Professional Programme (JPP) is now open for applications—an exciting gateway for junior professionals eager to launch their careers in the space sector. Among the many success stories to come out of the programme is Maureen, a Junior Professional whose journey at ESA included leading innovation within the IT Department and contributing to pioneering projects like YPSat-1, a satellite mission driven entirely by the Young ESA community. With hands-on experience, international collaboration and personal growth at its core, the JPP offers a unique opportunity to shape the future of space while developing your own professional path – as Maureen demonstrates in this interview.",
+            "link": "https://www.esa.int/About_Us/Careers_at_ESA/Hear_from_an_ESA_Junior_Professional_Maureen"
+        },
+        {
+            "type": "Book",
+            "title": "Tintin, c'est l'aventure",
+            "publisher": "GEO - Éditions Moulinsart",
+            "date": "December 13, 2023",
+            "description": "A special edition of the quarterly magazine Tintin, c'est l'aventure launched in France, Belgium and Luxembourg on 13 December 2023. The new issue invites readers to join Tintin on a fact-packed journey of space exploration, with features, interviews and activities focused on real-life space missions. This new adventure for Tintin and his friends is the most recent product of a long cooperation between ESA and the magazine's publishers Prisma Press, Geo magazine and Éditions Moulinsart.",
+            "link": "https://www.esa.int/About_Us/Branding_and_Partnerships/Tintin_s_new_adventures_in_space"
+        },
+        {
+            "type": "Article Paper",
+            "title": "SROnto: An ontology describing the space resources domain",
+            "publisher": "Luxembourg Institute of Science and Technology, European Space Research and Technology Centre",
+            "date": "May 5, 2022",
+            "description": "The growing interest for space resources by international governments, space agencies, and the private sector, generates a vast and dynamic amount of heterogeneous data, information, and knowledge as reflected in the number of scientific publications, patents, reports, and even news and reports regularly published in different medias. These are centralized via a recently launched Knowledge Sharing Platform that allows to federate the space resources community. The Space Resources Ontology (SROnto) that is described here, is at the heart of this platform since it drives the integration of knowledge into this platform but also support knowledge extraction and management. In this paper, we explain the various steps we have followed to conceptualize, formalize, validate and maintain the ontology over time as well as other important aspects such as its potential impact to become a standard for the community. We further pay a particular attention to the FAIR principles and their incidence on SROnto.",
+            "link": "https://www.sciencedirect.com/science/article/abs/pii/S0169023X24000107?via%3Dihub"
+        },
+        {
+            "type": "Master Thesis",
+            "title": "Towards a tokenization of carbon credits: an application of blockchain technology to emission trading system",
+            "publisher": "Tilburg University, Turku School of Economics, IAE Aix Marseille",
+            "date": "June 3, 2019",
+            "description": "Across the world, climate change is today one of the most major challenges of our time. Against it, several initiatives have been developed. One of them has the goal to cope with polluting emissions released into the atmosphere: The Emission Trading System. However, its success is threatened by several difficulties: frauds, lack of transparency, absence of standards and so on. All of these factors restrain Emissions Trading Systems to efficiently reduce global carbon footprint. This study investigates the potential of blockchain technology features applied the infrastructure of an emission trading system. In this perspective, this master thesis intends to demonstrate how blockchain can favor Emission Trading System mechanisms and prevent fraud issues from occurring. Analysis through surveys and semi structured interviews among experienced professionals have been realized in order to demonstrate and evaluate the feasibility of the designed system.",
+            "link": "https://www.utupub.fi/handle/10024/148087"
+        }
     ]
 }

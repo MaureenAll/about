@@ -9,6 +9,9 @@ pages:
     - cp *.html public/
     - cp content.json public/
     - cp styles.css public/ || true
+    - cp *.jpg public/ || true
+    - cp *.jpeg public/ || true
+    - cp *.png public/ || true
   artifacts:
     paths:
       - public
