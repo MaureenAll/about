@@ -117,8 +117,8 @@
                     rgba(10, 10, 10, 1),
                     rgba(10, 10, 10, 1),
                     rgba(10, 10, 10, 0.8),
-                    rgba(10, 10, 10, 0.3),
-                    rgba(10, 10, 10, 0.1));
+                    rgba(10, 10, 10, 0.2),
+                    rgba(10, 10, 10, 0));
             z-index: 1;
         }
 
@@ -224,6 +224,53 @@
             height: 16px;
             stroke-width: 2;
             opacity: 0.5;
+        }
+
+        /* Animated gradient background */
+        .gradient-blob {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.15;
+            animation: float 20s ease-in-out infinite;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .blob-1 {
+            width: 400px;
+            height: 400px;
+            background: #3b82f6;
+            /* Blue */
+            top: -200px;
+            right: -100px;
+            animation-delay: 0s;
+        }
+
+        .blob-2 {
+            width: 300px;
+            height: 300px;
+            background: #8b5cf6;
+            /* Purple */
+            bottom: -100px;
+            left: -50px;
+            animation-delay: 5s;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            33% {
+                transform: translate(30px, -30px) scale(1.1);
+            }
+
+            66% {
+                transform: translate(-20px, 20px) scale(0.9);
+            }
         }
     </style>
 </head>
@@ -350,8 +397,12 @@
     </div>
 
     <!-- Content Section -->
-    <div class="min-h-screen pb-12 px-6 md:pb-20">
-        <main class="max-w-4xl mx-auto">
+    <div class="min-h-screen pb-12 px-6 md:pb-20 relative overflow-hidden">
+        <!-- Animated background blobs -->
+        <div class="gradient-blob blob-1"></div>
+        <div class="gradient-blob blob-2"></div>
+
+        <main class="max-w-4xl mx-auto relative z-10">
             <!-- Experience -->
             <section id="experience" class="mb-16 md:mb-20 scroll-mt-24 pt-20">
                 <h2 class="text-xs uppercase tracking-widest text-neutral-500 mb-8 font-medium flex items-center gap-2">
