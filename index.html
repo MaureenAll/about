@@ -99,10 +99,12 @@
             inset: 0;
             background-image: url('profile-picture.jpeg');
             background-size: cover;
-            background-position: center 20%;
+            /* 20% is the initial vertical position. We add the parallax offset to it. */
+            background-position: center calc(20% + var(--parallax-y, 0px));
             background-repeat: no-repeat;
             transform: scaleX(-1);
             z-index: 0;
+            will-change: background-position;
         }
 
         /* Dark gradient overlay - Dark on Left to reveal face on Right */
@@ -110,12 +112,13 @@
             content: '';
             position: absolute;
             inset: 0;
-            background: linear-gradient(90deg,
-                    rgb(0, 0, 0),
+            background: linear-gradient(80deg,
+                    rgb(10, 10, 10, 1),
                     rgba(10, 10, 10, 1),
                     rgba(10, 10, 10, 1),
-                    rgba(10, 10, 10, 0.6)70%,
-                    rgba(10, 10, 10, 0.5));
+                    rgba(10, 10, 10, 0.8),
+                    rgba(10, 10, 10, 0.3),
+                    rgba(10, 10, 10, 0.1));
             z-index: 1;
         }
 
@@ -536,6 +539,16 @@
                 console.error('Error loading content:', error);
                 document.getElementById('name').textContent = 'Error loading content';
             });
+
+        // Parallax effect
+        window.addEventListener('scroll', () => {
+            const scrolled = window.scrollY;
+            const heroSection = document.querySelector('.hero-section');
+            if (heroSection && scrolled <= heroSection.offsetHeight) {
+                // Move background down at 40% of scroll speed
+                heroSection.style.setProperty('--parallax-y', `${scrolled * 0.4}px`);
+            }
+        });
     </script>
 </body>
 
