@@ -153,9 +153,66 @@
         }
     ],
     "certifications": [
-        "Google Analytics Completion",
-        "Google Tag Management",
-        "Concurrent Design Hackathon"
+        {
+            "title": "Drone pilot A1/A3",
+            "issuer": "EASA - European Union Aviation Safety Agency",
+            "date": "May 2025 - May 2030",
+            "id": "NLD-RP-eu7bucajzwgu",
+            "skills": [
+                "Drone Piloting"
+            ]
+        },
+        {
+            "title": "Space Sustainability",
+            "issuer": "EPFL",
+            "date": "Issued Mar 2024",
+            "skills": [
+                "Space Planning",
+                "Sustainability"
+            ],
+            "description": "The goal of the course is to learn what space sustainability means and how to design, operate missions and how to manage space business with a sustainability perspective."
+        },
+        {
+            "title": "Designing Space Missions & Systems",
+            "issuer": "Teaching Science & Technology, Inc. (TSTI)",
+            "date": "Issued Feb 2024",
+            "id": "529bc0d4-62f2-494b-a2e0-cfd389974d76",
+            "skills": [
+                "Aerospace",
+                "Space Mission"
+            ],
+            "description": "26-hour Designing Space Missions & Systems workshop which examines the real-world application of the entire space systems operations and engineering discipline."
+        },
+        {
+            "title": "AI Strategies and Roadmap: Systems Engineering Approach",
+            "issuer": "MIT Professional Education",
+            "date": "Issued Feb 2024",
+            "id": "94055724",
+            "skills": [
+                "Artificial Intelligence (AI)",
+                "Project management"
+            ]
+        },
+        {
+            "title": "Completion Concurrent Design Hackathon",
+            "issuer": "ESA/ESTEC",
+            "date": "Issued Dec 2022",
+            "id": "fc275a29-848e-46d4-a133-d315837fb40a",
+            "skills": [
+                "Space Systems",
+                "Solar Power"
+            ]
+        },
+        {
+            "title": "Certified SAFe® 5 Agilist",
+            "issuer": "SAFe by Scaled Agile, Inc.",
+            "date": "Issued Oct 2022",
+            "id": "34521323-1139",
+            "skills": [
+                "Agile Methodologies",
+                "DevOps"
+            ]
+        }
     ],
     "projects": [
         {
