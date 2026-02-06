@@ -157,6 +157,39 @@
         "Google Tag Management",
         "Concurrent Design Hackathon"
     ],
+    "projects": [
+        {
+            "name": "YPSat - Young Professionals Satellite",
+            "description": "ESA's Young Professionals Satellite project, participating in the Ariane 6 maiden flight. Led communications coordination for a multidisciplinary, multicultural team.",
+            "technologies": [
+                "Space Systems",
+                "Project Management",
+                "Communications"
+            ],
+            "link": ""
+        },
+        {
+            "name": "AI/ML Platform at ESA",
+            "description": "End-to-end AI/ML platform providing data management, model training, monitoring, and serving capabilities for the European Space Agency.",
+            "technologies": [
+                "MLOps",
+                "Python",
+                "AI/ML",
+                "Cloud"
+            ],
+            "link": ""
+        },
+        {
+            "name": "OUispeak Solutions",
+            "description": "International communication services platform serving luxury brands including Cartier, Longchamp, Rolex, and Galeries Lafayette.",
+            "technologies": [
+                "SaaS",
+                "Communication",
+                "Business Development"
+            ],
+            "link": ""
+        }
+    ],
     "awards": [
         "1st Winner - IBM x Intrum Hackathon for financial wellbeing (2024)",
         "1st Winner - MBSE 2024 Hackathon",
