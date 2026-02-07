@@ -137,6 +137,22 @@
                 transform: translate(-20px, 20px) scale(0.9);
             }
         }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-content {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
     </style>
 </head>
 
@@ -235,7 +251,7 @@
         <div class="gradient-blob blob-1"></div>
         <div class="gradient-blob blob-2"></div>
 
-        <main class="max-w-4xl mx-auto relative z-10">
+        <main class="max-w-4xl mx-auto relative z-10 animate-content">
             <header class="mb-16 md:mb-24">
                 <h1 class="text-4xl md:text-6xl font-light text-white mb-3 tracking-tight">Projects</h1>
                 <p class="text-lg text-neutral-400 font-light">Selected work and side projects</p>
